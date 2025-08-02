@@ -2,32 +2,25 @@
 
 ## 部署到 Vercel
 
-**注意**: 如果遇到配置错误，请确保使用最新的 `vercel.json` 配置格式。
+**静态文件部署方案** - 这是最简单、最稳定的部署方式。
 
-### 解决 npm 安装错误
+### 部署步骤
 
-如果遇到 "npm error Exit handler never called!" 错误，请尝试以下解决方案：
-
-1. **使用静态文件部署**（推荐）:
+1. **本地构建项目**:
    ```bash
-   # 本地构建
    npm run build
-   
-   # 重命名配置文件
-   mv vercel.json vercel-build.json
-   mv vercel-static.json vercel.json
-   
-   # 部署
-   vercel --prod
    ```
 
-2. **更新 Node.js 版本**:
-   - 在 Vercel 项目设置中设置 Node.js 版本为 18.x
-   - 或在 `package.json` 中指定 `"engines": { "node": "18.x" }`
-
-3. **清除 npm 缓存**:
+2. **部署到 Vercel**:
    ```bash
-   npm cache clean --force
+   # 安装 Vercel CLI
+   npm i -g vercel
+   
+   # 登录 Vercel
+   vercel login
+   
+   # 部署项目
+   vercel --prod
    ```
 
 ### 方法1：通过 Vercel CLI（推荐）
@@ -86,10 +79,7 @@
 
 ## 环境变量
 
-如果需要设置环境变量，可以在 Vercel 项目设置中添加：
-
-- `NODE_ENV=production`
-- `HTTPS=true`
+静态文件部署不需要特殊的环境变量设置。
 
 ## 自定义域名
 
@@ -100,12 +90,11 @@
 ## 故障排除
 
 ### 构建失败
-- 检查 Node.js 版本（需要 14+）
-- 确保所有依赖都已安装
-- 查看构建日志中的错误信息
+- 确保本地构建成功：`npm run build`
+- 检查 `build/` 目录是否包含所有必要文件
 
 ### PWA 功能不工作
-- 确保使用 HTTPS
+- 确保使用 HTTPS（Vercel 自动提供）
 - 检查 Service Worker 是否正确注册
 - 验证 manifest.json 文件格式
 
@@ -116,6 +105,6 @@
 
 ## 性能优化
 
-- 启用 Vercel 的 CDN 缓存
-- 压缩静态资源
-- 使用 Service Worker 进行缓存策略优化 
+- Vercel 自动提供全球 CDN 加速
+- 静态资源已优化压缩
+- Service Worker 提供离线缓存功能 
