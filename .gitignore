@@ -15,9 +15,6 @@ node_modules
 # Git
 *.swp
 
-# Build output
-build/
-
 # Environment variables
 .env
 .env.local

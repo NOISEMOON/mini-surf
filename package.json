@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "elm-app build",
+    "vercel-build": "elm-app build",
     "start": "elm-app start",
     "test": "elm-app test",
     "eject": "elm-app eject"
@@ -18,7 +19,7 @@
   ],
   "author": "Mo Chreach",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "create-elm-app": "^5.22.0"
   }
 } 
