@@ -1,0 +1,590 @@
+{
+    "config": {
+        "debug": false,
+        "gapSize": 2
+    },
+    "controller": {
+        "tag": "SizedRow",
+        "args": [
+            [
+                [
+                    1,
+                    {
+                        "tag": "Module",
+                        "args": [
+                            "voice5",
+                            {
+                                "tag": "SizedRow",
+                                "args": [
+                                    [
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 7,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Waveform Osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 17,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Coarse tune Osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 18,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Fine tune Osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 24,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Waveform mod osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 25,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Waveform mod osc 2",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 30,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Coarse tune mod.osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 31,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Coarse tune mod.osc 2",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 32,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Gain mod.osc 1",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 33,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Gain mod.osc 2",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 42,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Filter frequency",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 48,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Filter resonance",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 58,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Volume envelope attack",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 59,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Volume envelope decay",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 67,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Volume EG slope",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 93,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Voice volume",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 101,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Voice pan",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 107,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Distortion",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 113,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Decimation",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 120,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "LFO frequency",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 126,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "LFO amount",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    "label": "LXR-02 Voice 5"
+} 
