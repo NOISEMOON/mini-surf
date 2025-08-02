@@ -4,6 +4,32 @@
 
 **注意**: 如果遇到配置错误，请确保使用最新的 `vercel.json` 配置格式。
 
+### 解决 npm 安装错误
+
+如果遇到 "npm error Exit handler never called!" 错误，请尝试以下解决方案：
+
+1. **使用静态文件部署**（推荐）:
+   ```bash
+   # 本地构建
+   npm run build
+   
+   # 重命名配置文件
+   mv vercel.json vercel-build.json
+   mv vercel-static.json vercel.json
+   
+   # 部署
+   vercel --prod
+   ```
+
+2. **更新 Node.js 版本**:
+   - 在 Vercel 项目设置中设置 Node.js 版本为 18.x
+   - 或在 `package.json` 中指定 `"engines": { "node": "18.x" }`
+
+3. **清除 npm 缓存**:
+   ```bash
+   npm cache clean --force
+   ```
+
 ### 方法1：通过 Vercel CLI（推荐）
 
 1. **安装 Vercel CLI**

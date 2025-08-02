@@ -7,7 +7,8 @@
     "build": "elm-app build",
     "start": "elm-app start",
     "test": "elm-app test",
-    "eject": "elm-app eject"
+    "eject": "elm-app eject",
+    "vercel-build": "npm install && elm-app build"
   },
   "keywords": [
     "midi",
@@ -22,6 +23,6 @@
     "create-elm-app": "^5.22.0"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   }
 } 
