@@ -2,6 +2,8 @@
 
 ## 部署到 Vercel
 
+**注意**: 如果遇到配置错误，请确保使用最新的 `vercel.json` 配置格式。
+
 ### 方法1：通过 Vercel CLI（推荐）
 
 1. **安装 Vercel CLI**
