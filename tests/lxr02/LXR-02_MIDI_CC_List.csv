@@ -1,0 +1,122 @@
+voice,function,cc number,min value,max value
+1,Waveform Osc 1,2,0,127
+1,Coarse tune Osc 1,9,0,127
+1,Fine tune Osc 1,10,0,127
+1,Waveform mod OSC,21,0,127
+1,Filter frequency,38,0,127
+1,Filter resonance,44,0,127
+1,Volume envelope attack,50,0,127
+1,Volume envelope decay,51,0,127
+1,Volume envelope slope,63,0,127
+1,Mod. Envelope decay,71,0,127
+1,Envelope mod amount,75,0,127
+1,Mod. Envelope slope,79,0,127
+1,FM amount,83,0,127
+1,FM frequency,84,0,127
+1,Voice volume,89,0,127
+1,Voice pan,95,0,127
+1,Distortion,103,0,127
+1,Decimation,109,0,127
+1,LFO frequency,116,0,127
+1,LFO amount,122,0,127
+2,Waveform Osc 1,3,0,127
+2,Coarse tune Osc 1,11,0,127
+2,Fine tune Osc 1,12,0,127
+2,Waveform mod OSC,22,0,127
+2,Filter frequency,39,0,127
+2,Filter resonance,45,0,127
+2,Volume envelope attack,52,0,127
+2,Volume envelope decay,53,0,127
+2,Volume envelope slope,64,0,127
+2,Mod. Envelope decay,72,0,127
+2,Envelope mod amount,76,0,127
+2,Mod. Envelope slope,80,0,127
+2,FM amount,85,0,127
+2,FM frequency,86,0,127
+2,Voice volume,90,0,127
+2,Voice pan,96,0,127
+2,Distortion,104,0,127
+2,Decimation,110,0,127
+2,LFO frequency,117,0,127
+2,LFO amount,123,0,127
+3,Waveform Osc 1,4,0,127
+3,Coarse tune Osc 1,13,0,127
+3,Fine tune Osc 1,14,0,127
+3,Waveform mod OSC,23,0,127
+3,Filter frequency,40,0,127
+3,Filter resonance,46,0,127
+3,Volume envelope attack,54,0,127
+3,Volume envelope decay,55,0,127
+3,Volume envelope slope,65,0,127
+3,Mod. Envelope decay,73,0,127
+3,Envelope mod amount,77,0,127
+3,Mod. Envelope slope,81,0,127
+3,FM amount,87,0,127
+3,FM frequency,88,0,127
+3,Voice volume,91,0,127
+3,Voice pan,97,0,127
+3,Distortion,105,0,127
+3,Decimation,111,0,127
+3,LFO frequency,118,0,127
+3,LFO amount,124,0,127
+4,Waveform Osc 1,5,0,127
+4,Coarse tune Osc 1,15,0,127
+4,Fine tune Osc 1,16,0,127
+4,Noise frequency,28,0,127
+4,Mix osc/noise,29,0,127
+4,Filter frequency,41,0,127
+4,Filter resonance,47,0,127
+4,Volume envelope attack,56,0,127
+4,Volume envelope decay,57,0,127
+4,Volume EG slope,69,0,127
+4,Volume EG repeat count,70,0,127
+4,Mod. Envelope decay,74,0,127
+4,Envelope mod amount,78,0,127
+4,Mod. Envelope slope,82,0,127
+4,Voice volume,92,0,127
+4,Voice pan,100,0,127
+4,Distortion,106,0,127
+4,Decimation,112,0,127
+4,LFO frequency,119,0,127
+4,LFO amount,125,0,127
+5,Waveform Osc 1,7,0,127
+5,Coarse tune Osc 1,17,0,127
+5,Fine tune Osc 1,18,0,127
+5,Waveform mod osc 1,24,0,127
+5,Waveform mod osc 2,25,0,127
+5,Coarse tune mod.osc 1,30,0,127
+5,Coarse tune mod.osc 2,31,0,127
+5,Gain mod.osc 1,32,0,127
+5,Gain mod.osc 2,33,0,127
+5,Filter frequency,42,0,127
+5,Filter resonance,48,0,127
+5,Volume envelope attack,58,0,127
+5,Volume envelope decay,59,0,127
+5,Volume EG slope,67,0,127
+5,Voice volume,93,0,127
+5,Voice pan,101,0,127
+5,Distortion,107,0,127
+5,Decimation,113,0,127
+5,LFO frequency,120,0,127
+5,LFO amount,126,0,127
+6,Waveform Osc 1,8,0,127
+6,Coarse tune Osc 1,19,0,127
+6,Fine tune Osc 1,20,0,127
+6,Waveform mod osc 1,26,0,127
+6,Waveform mod osc 2,27,0,127
+6,Coarse tune mod.osc 1,34,0,127
+6,Coarse tune mod.osc 2,35,0,127
+6,Gain mod.osc 1,36,0,127
+6,Gain mod.osc 2,37,0,127
+6,Filter frequency,43,0,127
+6,Filter resonance,49,0,127
+6,Volume envelope attack,60,0,127
+6,Closed HH decay time,61,0,127
+6,Open HH decay time,62,0,127
+6,Volume EG slope,68,0,127
+6,Voice volume,94,0,127
+6,Voice pan,102,0,127
+6,Distortion,108,0,127
+6,Decimation,114,0,127
+6,LFO frequency,121,0,127
+6,LFO amount,127,0,127
