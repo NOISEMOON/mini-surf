@@ -7,13 +7,13 @@
 ### 部署步骤
 
 #### 1. 准备工作
-确保你的项目已经构建完成，所有静态文件都在 `public/` 目录中：
+确保你的项目已经构建完成，所有静态文件都在 `build/` 目录中：
 - `index.html`
-- `main.js` (Elm 编译后的文件)
-- `main.css`
+- `static/` 目录（包含编译后的 JS、CSS 文件）
 - `manifest.json`
-- `serviceWorker.js`
+- `service-worker.js`
 - `favicon.ico`
+- `asset-manifest.json`
 - 其他静态资源
 
 #### 2. 连接 GitHub 仓库到 Vercel
@@ -24,7 +24,7 @@
 4. 在项目配置页面：
    - **Framework Preset**: 选择 "Other"
    - **Build Command**: 留空或设置为 `echo "Static files already built"`
-   - **Output Directory**: 设置为 `public`
+   - **Output Directory**: 设置为 `build`
    - **Install Command**: 留空
 
 #### 3. 部署配置
@@ -64,10 +64,10 @@
 
 1. **404 错误**：
    - 检查 `vercel.json` 中的路由配置
-   - 确保 `public/index.html` 存在
+   - 确保 `build/index.html` 存在
 
 2. **构建失败**：
-   - 确保 `public/` 目录包含所有必要的静态文件
+   - 确保 `build/` 目录包含所有必要的静态文件
    - 检查文件权限
 
 3. **路由问题**：
