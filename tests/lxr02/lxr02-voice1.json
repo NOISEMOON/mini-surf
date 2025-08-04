@@ -12,7 +12,7 @@
                     {
                         "tag": "Module",
                         "args": [
-                            "voice5",
+                            "voice1",
                             {
                                 "tag": "SizedRow",
                                 "args": [
@@ -26,7 +26,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 7,
+                                                        "ccNumber": 2,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -54,7 +54,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 17,
+                                                        "ccNumber": 9,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -82,7 +82,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 18,
+                                                        "ccNumber": 10,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -110,7 +110,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 24,
+                                                        "ccNumber": 21,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -123,7 +123,7 @@
                                                             "tag": "Small",
                                                             "args": []
                                                         },
-                                                        "label": "Waveform mod osc 1",
+                                                        "label": "Waveform mod OSC",
                                                         "status": null
                                                     }
                                                 ]
@@ -138,147 +138,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 25,
-                                                        "channel": {
-                                                            "tag": "Ch1",
-                                                            "args": []
-                                                        },
-                                                        "colour": {
-                                                            "tag": "Yellow",
-                                                            "args": []
-                                                        },
-                                                        "labelSize": {
-                                                            "tag": "Small",
-                                                            "args": []
-                                                        },
-                                                        "label": "Waveform mod osc 2",
-                                                        "status": null
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        [
-                                            1,
-                                            {
-                                                "tag": "Fader",
-                                                "args": [
-                                                    {
-                                                        "valueMax": 127,
-                                                        "valueMin": 0,
-                                                        "valuePercent": 50,
-                                                        "ccNumber": 30,
-                                                        "channel": {
-                                                            "tag": "Ch1",
-                                                            "args": []
-                                                        },
-                                                        "colour": {
-                                                            "tag": "Yellow",
-                                                            "args": []
-                                                        },
-                                                        "labelSize": {
-                                                            "tag": "Small",
-                                                            "args": []
-                                                        },
-                                                        "label": "Coarse tune mod.osc 1",
-                                                        "status": null
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        [
-                                            1,
-                                            {
-                                                "tag": "Fader",
-                                                "args": [
-                                                    {
-                                                        "valueMax": 127,
-                                                        "valueMin": 0,
-                                                        "valuePercent": 50,
-                                                        "ccNumber": 31,
-                                                        "channel": {
-                                                            "tag": "Ch1",
-                                                            "args": []
-                                                        },
-                                                        "colour": {
-                                                            "tag": "Yellow",
-                                                            "args": []
-                                                        },
-                                                        "labelSize": {
-                                                            "tag": "Small",
-                                                            "args": []
-                                                        },
-                                                        "label": "Coarse tune mod.osc 2",
-                                                        "status": null
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        [
-                                            1,
-                                            {
-                                                "tag": "Fader",
-                                                "args": [
-                                                    {
-                                                        "valueMax": 127,
-                                                        "valueMin": 0,
-                                                        "valuePercent": 50,
-                                                        "ccNumber": 32,
-                                                        "channel": {
-                                                            "tag": "Ch1",
-                                                            "args": []
-                                                        },
-                                                        "colour": {
-                                                            "tag": "Yellow",
-                                                            "args": []
-                                                        },
-                                                        "labelSize": {
-                                                            "tag": "Small",
-                                                            "args": []
-                                                        },
-                                                        "label": "Gain mod.osc 1",
-                                                        "status": null
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        [
-                                            1,
-                                            {
-                                                "tag": "Fader",
-                                                "args": [
-                                                    {
-                                                        "valueMax": 127,
-                                                        "valueMin": 0,
-                                                        "valuePercent": 50,
-                                                        "ccNumber": 33,
-                                                        "channel": {
-                                                            "tag": "Ch1",
-                                                            "args": []
-                                                        },
-                                                        "colour": {
-                                                            "tag": "Yellow",
-                                                            "args": []
-                                                        },
-                                                        "labelSize": {
-                                                            "tag": "Small",
-                                                            "args": []
-                                                        },
-                                                        "label": "Gain mod.osc 2",
-                                                        "status": null
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        [
-                                            1,
-                                            {
-                                                "tag": "Fader",
-                                                "args": [
-                                                    {
-                                                        "valueMax": 127,
-                                                        "valueMin": 0,
-                                                        "valuePercent": 50,
-                                                        "ccNumber": 42,
+                                                        "ccNumber": 38,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -306,7 +166,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 48,
+                                                        "ccNumber": 44,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -334,7 +194,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 58,
+                                                        "ccNumber": 50,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -362,7 +222,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 59,
+                                                        "ccNumber": 51,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -390,7 +250,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 67,
+                                                        "ccNumber": 63,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -403,7 +263,7 @@
                                                             "tag": "Small",
                                                             "args": []
                                                         },
-                                                        "label": "Volume EG slope",
+                                                        "label": "Volume envelope slope",
                                                         "status": null
                                                     }
                                                 ]
@@ -418,7 +278,147 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 93,
+                                                        "ccNumber": 71,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Mod. Envelope decay",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 75,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Envelope mod amount",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 79,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "Mod. Envelope slope",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 83,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "FM amount",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 84,
+                                                        "channel": {
+                                                            "tag": "Ch1",
+                                                            "args": []
+                                                        },
+                                                        "colour": {
+                                                            "tag": "Yellow",
+                                                            "args": []
+                                                        },
+                                                        "labelSize": {
+                                                            "tag": "Small",
+                                                            "args": []
+                                                        },
+                                                        "label": "FM frequency",
+                                                        "status": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            1,
+                                            {
+                                                "tag": "Fader",
+                                                "args": [
+                                                    {
+                                                        "valueMax": 127,
+                                                        "valueMin": 0,
+                                                        "valuePercent": 50,
+                                                        "ccNumber": 89,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -446,7 +446,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 101,
+                                                        "ccNumber": 95,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -474,7 +474,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 107,
+                                                        "ccNumber": 103,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -502,7 +502,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 113,
+                                                        "ccNumber": 109,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -530,7 +530,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 120,
+                                                        "ccNumber": 116,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -558,7 +558,7 @@
                                                         "valueMax": 127,
                                                         "valueMin": 0,
                                                         "valuePercent": 50,
-                                                        "ccNumber": 126,
+                                                        "ccNumber": 122,
                                                         "channel": {
                                                             "tag": "Ch1",
                                                             "args": []
@@ -586,5 +586,5 @@
             ]
         ]
     },
-    "label": "LXR-02 Voice 5"
+    "label": "1"
 } 
